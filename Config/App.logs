@@ -1,0 +1,5 @@
+16/05/2020 08:44:54 FaceBookLogger Navigate to Face book
+16/05/2020 08:44:54 FaceBookLogger Assert On emailElementIsDisplayed
+16/05/2020 08:44:54 FaceBookLogger enter the email
+16/05/2020 08:44:54 FaceBookLogger Assert On PasswordElementIsDisplayed
+16/05/2020 08:44:54 FaceBookLogger enter the password

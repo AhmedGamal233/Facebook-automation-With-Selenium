@@ -1,0 +1,7 @@
+{
+"authentication":
+{
+"users":[{"email":"Gemi1","password":"12345"},
+         {"email":"Gemi2","password":"12345"}]
+}
+}

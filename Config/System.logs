@@ -1,0 +1,5 @@
+08:44:54,346 DEBUG FaceBookLogger<strong>{1}</strong>:206 - Navigate to Face book
+08:44:54,425 DEBUG FaceBookLogger<strong>{1}</strong>:208 - Assert On emailElementIsDisplayed
+08:44:54,561 DEBUG FaceBookLogger<strong>{1}</strong>:210 - enter the email
+08:44:54,627 DEBUG FaceBookLogger<strong>{1}</strong>:212 - Assert On PasswordElementIsDisplayed
+08:44:54,858 DEBUG FaceBookLogger<strong>{1}</strong>:214 - enter the password
