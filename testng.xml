@@ -16,5 +16,13 @@
 	  			<class name = "publishpostTest.PublishTest"/>
 	  		</classes>
   	</test> <!-- TestOnChrome -->  	
+  	
+  		<test name = "TestOnPhantonJs">
+		<parameter name = "BrowserType" value = "Headless"/>
+		  	<classes>
+	  			<class name = "publishpostTest.BaseTest"/>
+	  			<class name = "publishpostTest.PublishTest"/>
+	  		</classes>
+  	</test> <!-- TestOnPhantonJs -->
 
 </suite> <!-- Cross Browser Testing -->
