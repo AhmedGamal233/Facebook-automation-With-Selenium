@@ -1,8 +1,15 @@
 package Actions;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -29,6 +36,9 @@ public class UiActions {
 	//write in text field method
 	public static void sendKeys (WebDriver browserObject,By by ,String string) {
 		browserObject.findElement(by).sendKeys(string);
+	}
+	public static void sendKeys_2 (WebElement element ,String string) {
+		element.sendKeys(string);
 	}
 	
 	//click method
@@ -67,5 +77,6 @@ public static void clicOnKeyboardButton(WebDriver browserObject, By by, Keys ent
 	browserObject.findElement(by).sendKeys(Keys.ENTER);
 	
 }
+
 	
 }
